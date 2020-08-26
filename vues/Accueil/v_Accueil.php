@@ -3,6 +3,36 @@
         <td class='texteAccueil'> 
         </td>
     </tr>
+    <p>
+        <h2>Connexion</h2>
+    </p>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="name">Nom du groupe</label> : <input type="text" name="name" id="name"/>
+        </p>
+        <p>
+            <label for="password">Mot de passe</label> : <input type="password" name="password" id="password"/>
+        </p>
+        <p>
+            <label for="mail">Addresse e-mail</label> : <input type="email" name="mail" id="mail"/>
+        </p>
+        <p>
+            <label for="pays">Pays</label> :
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="canada">Canada</option>
+                <option value="etats-unis">États-Unis</option>
+                <option value="chine">Chine</option>
+                <option value="japon">Japon</option>
+       </select>
+   </p>
+</form>
+            </select>
+        </p>
+    </form>
     <tr>
         <td >
         </td>
